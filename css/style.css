@@ -4,6 +4,7 @@
     padding: 0;
 }
 body{
+    font-family: 'Public Sans', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     background-color: rgb(246, 248, 249);
 }
@@ -15,7 +16,7 @@ main{
    padding: 5rem 5rem;
 }
 #task{
-    background-color:rgb(71, 173, 241);
+    background-color:rgb(68, 156, 215);
     color: white;
     border-radius: 0.5rem;
     border: 0.1rem solid rgb(133, 199, 253);
@@ -25,13 +26,35 @@ main{
 }
 #section{
     border: 0.1rem solid lightgrey;
-    color: lightgray;
+    color: rgb(174, 174, 174);
     border-radius: 0.5rem;
     display: inline-block;
     padding: 0.5rem 0.5rem;
     margin: 0.2rem;
 }
+#check{
+    border: 0.1rem solid rgb(105, 226, 186);
+    border-radius: 50%;
+    padding: 0.1rem;
+    color: rgb(102, 221, 181);
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+#close{
+    border: 0.1rem solid rgb(251, 74, 74);
+    border-radius: 50%;
+    padding: 0.1rem;
+    color: rgb(221, 102, 102);
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
 
+}
 
 .title-logo{
     display: inline-block;
@@ -51,11 +74,65 @@ main{
     background-color: white;
     margin: auto;
     border-radius: 0.5rem;
-   
 }
 
 .add{
     border-bottom: 0.2rem solid lightgray;
     padding: 1rem 5rem;
    
+}
+.list{
+    color: rgb(70, 70, 70);
+    padding: 1rem 5rem;
+    margin-top: 0.5rem;
+}
+.list-title{
+    display: inline-block;
+}
+.list-item{
+    margin: 1rem 0;
+    
+}
+.list-item p{
+    display: inline-block;
+}
+.badge{
+    color: white;
+    display: inline-block;
+}
+#blue{
+    background-color: rgb(68, 156, 215);
+    padding: 0.3rem;
+    font-size: small;
+    border-radius: 1rem;
+}
+#pink{
+    background-color: rgb(255, 91, 198);
+    padding: 0.3rem;
+    font-size: small;
+    border-radius: 1rem;
+}
+#limegreen{
+    background-color: rgb(157, 223, 24);
+    padding: 0.3rem;
+    font-size: small;
+    border-radius: 1rem;
+}
+#purple{
+    background-color: rgb(188, 144, 228);
+    padding: 0.3rem;
+    font-size: small;
+    border-radius: 1rem;
+}
+#aquamarine{
+    background-color: rgb(85, 241, 189);
+    padding: 0.3rem;
+    font-size: small;
+    border-radius: 1rem;
+}
+#orange{
+    background-color: orange;
+    padding: 0.3rem;
+    font-size: small;
+    border-radius: 1rem;
 }
